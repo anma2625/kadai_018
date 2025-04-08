@@ -2,7 +2,7 @@
   position: relative;
   width: 800px;
   background-color: #dcc9f4;
-  margin: 20px;
+  margin: 20px auto;
   text-align: center;
 }
 .top-child {
@@ -44,18 +44,26 @@
   background-color: #87ceeb;
 }
 #bottom {
-  display: flex;
-  flex-direction: colum;
-  align-items: center;
   width: 800px;
   height: 300px;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: #87ceeb;
-  position: relative;
+  
 }
-#bottom-child01, #bottom-child02, #bottom-child03 {
+#bottom-child01,#bottom-child02,#bottom-child03 {
   width: 400px;
   height: 100px;
   background-color: #e5dcf0;
-  position: absolute;
+}
+#bottom-child01 {
+  position: relative;
+  left:0;
+}
+#bottom-child02{
+  position: relative;
+  left: 200px;
+}
+#bottom-child03 {
+  position: relative;
+  left: 400px;
 }
